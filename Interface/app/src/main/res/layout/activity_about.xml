@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.pawel.aninterface.about"
+    android:background="@drawable/bgr">
+
+    <TextView
+        android:id="@+id/about_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikacja do zdalnego sterowania pojazdem\n
+Autor: Kacper Kita\n
+Wersja Beta 3.4"
+        android:textStyle="bold"
+        android:textColor="#add8e6"
+        android:textSize="20dp"
+        android:layout_x="0dp"
+        android:layout_y="10dp" />
+
+    <ImageView
+        android:id="@+id/about_pic"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_x="40dp"
+        android:layout_y="80dp"
+        app:srcCompat="@drawable/about_car" />
+
+    <Button
+        android:id="@+id/ret_about_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:layout_x="0dp"
+        android:layout_y="350dp" />
+
+</AbsoluteLayout>

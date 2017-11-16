@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pawel.aninterface.SterWarcaby"
+    android:background="@drawable/bgr">
+
+    <Button
+        android:id="@+id/ster_forward"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Forward"
+        android:layout_x="10dp"
+        android:layout_y="10dp" />
+
+    <Button
+        android:id="@+id/ster_backward"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Backward"
+        android:layout_x="100dp"
+        android:layout_y="95dp" />
+
+    <Button
+        android:id="@+id/ster_left"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Left"
+        android:layout_x="10dp"
+        android:layout_y="95dp" />
+
+    <Button
+        android:id="@+id/ster_right"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Right"
+        android:layout_x="100dp"
+        android:layout_y="10dp" />
+
+    <Button
+        android:id="@+id/ster_right_s"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="Rs"
+        android:layout_x="100dp"
+        android:layout_y="200dp" />
+
+    <Button
+        android:id="@+id/ster_left_s"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="Ls"
+        android:layout_x="30dp"
+        android:layout_y="200dp" />
+
+    <Button
+        android:id="@+id/ster_forward_s"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="Fs"
+        android:layout_x="30dp"
+        android:layout_y="250dp" />
+
+    <Button
+        android:id="@+id/ster_backward_s"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="Bs"
+        android:layout_x="100dp"
+        android:layout_y="250dp" />
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Ruch"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:layout_x="180dp"
+        android:layout_y="210dp" />
+
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Bicie"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:layout_x="180dp"
+        android:layout_y="260dp" />
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Click me!"
+        android:layout_x="200dp"
+        android:layout_y="10dp" />
+
+    <Button
+        android:id="@+id/disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disconnect"
+        android:layout_x="210dp"
+        android:layout_y="290dp" />
+
+    <Button
+        android:id="@+id/ret_ster_warcaby_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:layout_x="0dp"
+        android:layout_y="350dp" />
+
+    <TextView
+        android:id="@+id/out"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_x="0dp"
+        android:layout_y="240dp"/>
+
+
+</AbsoluteLayout>

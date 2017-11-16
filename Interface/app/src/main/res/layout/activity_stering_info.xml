@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.pawel.aninterface.stering_infoActivity"
+    android:background="@drawable/bgr">
+
+    <TextView
+        android:id="@+id/aboutWarcaby_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Sterowanie pojazdem RC via bluetooth\n\n
+1. Wcisnij przycisk Podlacz urz. Jesli bluetooth jest wyłączony urządzenie spyta o zgodę na włączenie.\n
+2. Wcisnij SPARUJ i wybierz z listy urządzenie, z którym chcesz się połączyć.\n
+3. Nastąpi przekierowanie na zakładkę ze sterowaniem.\n
+* wejscie w STEROWANIE bez podłączenia jest możliwe lecz nie zostaniemy połączeni z urządzeniem\n\n
+COMING SOON..."
+        android:textStyle="bold"
+        android:textColor="#add8e6"
+        android:textSize="17dp"
+        android:layout_x="0dp"
+        android:layout_y="10dp" />
+
+    <Button
+        android:id="@+id/ret_aboutStering_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:layout_x="0dp"
+        android:layout_y="350dp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pawel.aninterface.SterLaptop"
+    android:background="@drawable/bgr">
+
+    <ImageView
+        android:id="@+id/ster_image"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_x="50dp"
+        android:layout_y="40dp"
+        app:srcCompat="@drawable/ster_image" />
+
+    <TextView
+        android:id="@+id/dir_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#add8e6"
+        android:textSize="20dp"
+        android:text=".oO"
+        android:layout_x="40dp"
+        android:layout_y="70dp" />
+
+    <TextView
+        android:id="@+id/dir_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#add8e6"
+        android:textSize="20dp"
+        android:text="Oo."
+        android:layout_x="130dp"
+        android:layout_y="70dp" />
+
+    <TextView
+        android:id="@+id/dir_backward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#add8e6"
+        android:textSize="20dp"
+        android:text="V"
+        android:layout_x="94dp"
+        android:layout_y="130dp" />
+
+    <TextView
+        android:id="@+id/dir_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#add8e6"
+        android:textSize="20dp"
+        android:text="A"
+        android:layout_x="94dp"
+        android:layout_y="15dp" />
+
+    <Button
+        android:id="@+id/ster_forward"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:text="Forward"
+        android:layout_x="210dp"
+        android:layout_y="10dp" />
+
+    <Button
+        android:id="@+id/ster_backward"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="Backward"
+        android:layout_x="210dp"
+        android:layout_y="110dp" />
+
+    <Button
+        android:id="@+id/ster_left"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Left"
+        android:layout_x="0dp"
+        android:layout_y="180dp" />
+
+    <Button
+        android:id="@+id/ster_right"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Right"
+        android:layout_x="100dp"
+        android:layout_y="180dp" />
+
+    <Button
+        android:id="@+id/shoot"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Shoot!"
+        android:layout_x="120dp"
+        android:layout_y="100dp"
+        android:background="#fb4203"
+        android:textColor="#ffff00"/>
+
+    <Button
+        android:id="@+id/armor_switch"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="Armor\nswitch"
+        android:textSize="10dp"
+        android:layout_x="0dp"
+        android:layout_y="10dp"
+        android:background="#bfbda7" />
+
+    <Button
+        android:id="@+id/weapon_switch"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="Weapon\nswitch"
+        android:textSize="10dp"
+        android:layout_x="120dp"
+        android:layout_y="10dp"
+        android:background="#3dff7b"/>
+
+    <Button
+        android:id="@+id/cruiser_switch"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="Cruiser\nswitch"
+        android:textSize="10dp"
+        android:layout_x="0dp"
+        android:layout_y="100dp"
+        android:background="#eadb4c"/>
+
+    <Button
+        android:id="@+id/ue"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:text="Ultimate\nexplosion"
+        android:textSize="10dp"
+        android:layout_x="210dp"
+        android:layout_y="180dp"
+        android:background="#ff0000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/crosshair"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Crosshair"
+        android:layout_x="210dp"
+        android:layout_y="250dp"
+        android:background="#ffdae3"/>
+
+    <Button
+        android:id="@+id/disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disconnect"
+        android:layout_x="210dp"
+        android:layout_y="290dp" />
+
+    <Button
+        android:id="@+id/ret_ster_laptop_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:layout_x="0dp"
+        android:layout_y="350dp" />
+
+    <TextView
+        android:id="@+id/out"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_x="0dp"
+        android:layout_y="240dp"
+        android:background="#ffffff"/>
+
+
+</AbsoluteLayout>

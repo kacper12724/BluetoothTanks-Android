@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.pawel.aninterface.second"
+    android:background="@drawable/bgr">
+
+    <ImageView
+        android:id="@+id/ster_image"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_x="50dp"
+        android:layout_y="40dp"
+        app:srcCompat="@drawable/ster_image" />
+
+    <TextView
+        android:id="@+id/dir_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#add8e6"
+        android:textSize="20dp"
+        android:text=".oO"
+        android:layout_x="40dp"
+        android:layout_y="70dp" />
+
+    <TextView
+        android:id="@+id/dir_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#add8e6"
+        android:textSize="20dp"
+        android:text="Oo."
+        android:layout_x="130dp"
+        android:layout_y="70dp" />
+
+    <TextView
+        android:id="@+id/dir_backward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#add8e6"
+        android:textSize="20dp"
+        android:text="V"
+        android:layout_x="94dp"
+        android:layout_y="130dp" />
+
+    <TextView
+        android:id="@+id/dir_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#add8e6"
+        android:textSize="20dp"
+        android:text="A"
+        android:layout_x="94dp"
+        android:layout_y="15dp" />
+
+    <Button
+        android:id="@+id/ster_forward"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:text="Forward"
+        android:layout_x="210dp"
+        android:layout_y="10dp" />
+
+    <Button
+        android:id="@+id/ster_backward"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="Backward"
+        android:layout_x="210dp"
+        android:layout_y="110dp" />
+
+    <Button
+        android:id="@+id/ster_left"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Left"
+        android:layout_x="0dp"
+        android:layout_y="180dp" />
+
+    <Button
+        android:id="@+id/ster_right"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Right"
+        android:layout_x="100dp"
+        android:layout_y="180dp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBoxLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="290dp"
+        android:textColor="#add8e6"
+        android:textSize="30dp"
+        android:text="Lights" />
+
+    <Button
+        android:id="@+id/config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Config"
+        android:layout_x="210dp"
+        android:layout_y="250dp" />
+
+    <Button
+        android:id="@+id/disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disconnect"
+        android:layout_x="210dp"
+        android:layout_y="290dp" />
+
+    <Button
+        android:id="@+id/ret_ster_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:layout_x="0dp"
+        android:layout_y="350dp" />
+
+</AbsoluteLayout>

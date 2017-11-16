@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.pawel.aninterface.laptop_infoActivity"
+    android:background="@drawable/bgr">
+
+    <TextView
+        android:id="@+id/aboutLaptop_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Gra w czołgi na laptopie via bluetooth\n\n
+1. Włącz grę na laptopie. Zostanie uruchomiony serwer SPP.\n
+2. Upewnij się, że bluetooth jest włączony.\n
+3. Wcisnij przycisk CZOLGI.\n
+4. Poczekaj chwile aż telefon połączy się z serwerem.\n
+5. Możesz już grać ;)"
+        android:textStyle="bold"
+        android:textColor="#add8e6"
+        android:textSize="17dp"
+        android:layout_x="0dp"
+        android:layout_y="10dp" />
+
+    <Button
+        android:id="@+id/ret_aboutLaptop_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:layout_x="0dp"
+        android:layout_y="350dp" />
+
+</AbsoluteLayout>

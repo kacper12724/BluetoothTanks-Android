@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.pawel.aninterface.first"
+    android:background="@drawable/bgr">
+
+    <Button
+        android:id="@+id/laptop"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Czołgi"
+        android:layout_x="100dp"
+        android:layout_y="50dp" />
+
+    <Button
+        android:id="@+id/laptop_info"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="...?"
+        android:layout_x="230dp"
+        android:layout_y="50dp" />
+
+    <Button
+        android:id="@+id/warcaby"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Warcaby"
+        android:layout_x="100dp"
+        android:layout_y="100dp" />
+
+    <Button
+        android:id="@+id/warcaby_info"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="...?"
+        android:layout_x="230dp"
+        android:layout_y="100dp" />
+
+    <Button
+        android:id="@+id/stering"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Pojazd RC"
+        android:layout_x="100dp"
+        android:layout_y="150dp" />
+
+    <Button
+        android:id="@+id/stering_info"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="...?"
+        android:layout_x="230dp"
+        android:layout_y="150dp" />
+
+    <Button
+        android:id="@+id/spare"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Podlacz urz."
+        android:layout_x="100dp"
+        android:layout_y="200dp" />
+
+    <Button
+        android:id="@+id/spare_info"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="...?"
+        android:layout_x="230dp"
+        android:layout_y="200dp" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="O aplikacji"
+        android:layout_x="100dp"
+        android:layout_y="250dp" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Wyjscie"
+        android:layout_x="100dp"
+        android:layout_y="300dp" />
+
+</AbsoluteLayout>
